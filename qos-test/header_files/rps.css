@@ -1,0 +1,171 @@
+/* rps.css by Bill Weinman http://bw.org/contact/
+  v 1.0 - 2012-07-20
+*/
+
+.log{
+float:right;
+margin-right:100px;
+ position:relative; 
+ top:1.0em;
+ text-decoration:none;
+ font-size:17px;
+ }
+.reg{
+float:right;
+margin-right:40px;
+ position:relative;
+ top:1.0em; 
+ text-decoration:none;
+ font-size:17px;}
+
+nav#top-menu {
+    width: 18%;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+	top:-1.2em;
+	position: relative;
+margin-left:880px;
+}
+
+#top-menu ul {
+    display: block;
+    list-style-type: none;
+    width: 480px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#top-menu ul li {
+    margin: 0;
+    padding: 0;
+}
+#top-menu ul li a {
+    display: block;
+    float: left;
+	text-shadow:none;
+    font-family: 'Monda';
+    font-size: 20px;
+	padding: 22px 18px;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+    }
+	
+
+
+div.menuNormal
+{display: none;
+
+}
+#top-menu ul li a:hover {
+color:#FF5C5C;
+}
+
+div.menuHover
+{
+border: 1px solid #585f69;
+display: inline;
+position: absolute;
+}
+
+td.menuHover
+{padding:0px;
+vertical-align:top;
+/*remove the following line for drop-down menu with images*/}
+
+td.menuNormal
+{padding: 0px;
+vertical-align: center;
+}
+
+h6
+{
+    width: 95px;
+    margin: 0;
+    font-family: tahoma, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+   font-weight:normal;
+   position: relative;
+   top:.2em;
+   color:black;
+   }
+   
+ h6:hover{
+ padding:0;
+ background-color:black;
+ height:22px;
+ text-align:center;
+ color:#FF5C5C;
+  border: 1px solid black ;
+border-radius: 10px ;
+-moz-border-radius: 10px ;
+-webkit-border-radius: 10px ;
+ }
+ 
+div.menuNormal
+{display: none;
+position: static;
+}
+
+div.menuHover
+{
+margin-top:3px;
+background-color: #585f69;
+display: inline;
+position: absolute;}
+
+a.menuitem:hover
+{
+text-decoration: none;
+display: block;
+color: white;}
+
+a.specialeffects:hover {
+ background-color:black;
+ padding:0px;
+ color:#FF5C5C;
+border-radius: 10px ;
+-moz-border-radius: 10px ;
+-webkit-border-radius: 10px ;
+  }
+  
+a.specialeffects{
+font-weight:normal;
+font-size: 70%;
+width:80;
+}
+
+#maindiv {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #E6E6E6;
+	padding-top:0;
+}
+footer {
+    background:#3E4753;
+}
+
+footer p {
+    color: black;
+    font-size: 70%;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+.fig{
+margin-left:210px;
+margin-top:10px;
+border:2px solid black;}
+
+a{
+font-weight:normal;
+font-size: 12px;
+color:#555555;
+
+}
